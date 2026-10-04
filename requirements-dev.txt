@@ -1,0 +1,3 @@
+# Notebook viewing and archive verification
+jupyterlab
+nbformat

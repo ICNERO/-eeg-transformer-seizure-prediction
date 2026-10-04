@@ -1,0 +1,16 @@
+# Dependency names reconstructed from the archived source imports.
+# The original 2025 environment lockfile is unavailable.
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+mne
+python-picard
+pykalman
+joblib
+torch
+tqdm
+tabulate
+openpyxl
+xlsxwriter

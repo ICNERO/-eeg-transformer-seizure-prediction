@@ -1,0 +1,7 @@
+# Retains the optional import declared in the archived model source.
+# The current EnhancedLNNModule uses explicit Euler updates and does not
+# call odeint, even when torchdiffeq is installed.
+torchdiffeq
+
+# Select the appropriate CuPy distribution for your CUDA installation
+# separately if enabling --use_gpu in the controls preprocessing script.

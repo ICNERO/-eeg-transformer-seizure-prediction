@@ -1,0 +1,32 @@
+# Local environments and verification dependencies
+.venv/
+venv/
+.validation-deps/
+.local/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Datasets, derived features, model weights and generated results
+data/
+outputs/
+logs/
+*.edf
+*.fif
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.xlsx
+*.log
+
+# Local credentials and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "project": "基于Transformer的癫痫预测系统",
+  "award": "2025年生物医学工程创新设计大赛国家三等奖",
+  "test_data_status": "Original test data are unavailable and are not included.",
+  "files": [
+    {
+      "original_filename": "preprocessing first注释.ipynb",
+      "published_path": "notebooks/preprocessing/annotate_chbmit.ipynb",
+      "original_sha256": "ef776d31f148b85228187e747503e5ef74cae9d594ac8c118c0e7f75bf2c55bb",
+      "outputs_removed": 16,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01/chb01-summary.txt",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01/chb01-summary.txt",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01/chb01_03_raw.fif",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "preprocessing first注释（适配PNXX数据集）.ipynb",
+      "published_path": "notebooks/preprocessing/annotate_pnxx.ipynb",
+      "original_sha256": "b8cdf344c0909900ceb01e7c48d231de5b60b7585f807ceee9e38d8f4334acf3",
+      "outputs_removed": 13,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local PNXX data path",
+          "to": "data/pnxx/PN00",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local PNXX data path",
+          "to": "data/pnxx/PN00/Seizures-list-PN00.txt",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "preprocessing second 全转fif.ipynb",
+      "published_path": "notebooks/preprocessing/convert_edf_to_fif.ipynb",
+      "original_sha256": "cac0672a483de4adc734d68ec2ee7c181e368263e1c3fcb22b3012a4752b7ea9",
+      "outputs_removed": 71,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01/chb01-summary.txt",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "preprocessing third删除投影器.ipynb",
+      "published_path": "notebooks/preprocessing/remove_ssp_projectors.ipynb",
+      "original_sha256": "4ab83353339a9992cf1dcb32078cad3c0abce56de4a9ef0a44a92ac263e9ea4b",
+      "outputs_removed": 87,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "preprocessing forth伪影检测和坏道.ipynb",
+      "published_path": "notebooks/preprocessing/artifact_bad_channel_detection.ipynb",
+      "original_sha256": "20b7b98acade895b2821e97396be88e16d057d3c3a8560a8cf707729a4e0e50f",
+      "outputs_removed": 3,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "preprocessing fifth基于伪影检测，剔除电源线影响and高通滤波0.2HZ.ipynb",
+      "published_path": "notebooks/preprocessing/highpass_line_noise_removal.ipynb",
+      "original_sha256": "8f94d73131bd0c236daefac37ef31794036bcf4832f5848525f5cfe442bd5c15",
+      "outputs_removed": 954,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01/chb01_01_raw_no_proj.fif",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "preprocessing sixth低通滤波和下采样（非必要）.ipynb",
+      "published_path": "notebooks/preprocessing/lowpass_downsampling_optional.ipynb",
+      "original_sha256": "46aadb979023c165f7853673c9b949209aa8a50ac6018e534fd6949390c7a4bf",
+      "outputs_removed": 1,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        },
+        "Collapsed the incomplete line-657 `elif visualize_results and len(epochs)` and its duplicate malformed continuation into one correctly indented elif; this restores the intended visualization fallback."
+      ]
+    },
+    {
+      "original_filename": "preprocessing sixth 步骤完备（必要）卡尔曼滤波那里用了cpu加速（弃）.ipynb",
+      "published_path": "notebooks/preprocessing/full_pipeline_kalman_deprecated.ipynb",
+      "original_sha256": "73b774daef53b8af38678e32f1a9984f7914eed6c6532ed8edb22a529adebaec",
+      "outputs_removed": 11,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "preprocessing sixth stockwell分割.ipynb",
+      "published_path": "notebooks/preprocessing/stockwell_segmentation.ipynb",
+      "original_sha256": "cb204407dc8181d9f36d183ddaead37c932e072d432877b163c9b6c264efdefd",
+      "outputs_removed": 19,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local CHB-MIT data path",
+          "to": "data/chb-mit/chb01",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "preprocessing seventh通道选择.ipynb",
+      "published_path": "notebooks/preprocessing/channel_selection.ipynb",
+      "original_sha256": "24f4275d0bd2f8724a8604beda267cefb9d9d074c946603ce06f359d2d546f48",
+      "outputs_removed": 0,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local EEG data path",
+          "to": "data/eeg_data",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    },
+    {
+      "original_filename": "MIT(只处理癫痫).ipynb",
+      "published_path": "notebooks/workflows/mit_seizure_only.ipynb",
+      "original_sha256": "4bce3f78169202f479c60f9be46d70c45c8d4b66f6b8584bb1b4ab1a2f543758",
+      "outputs_removed": 0,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        "Changed automatic FIF cleanup to EEG_ENABLE_CLEANUP=1 opt-in; defaults preserve intermediates."
+      ]
+    },
+    {
+      "original_filename": "MIT完整流程(内存处理）.ipynb",
+      "published_path": "notebooks/workflows/mit_complete_pipeline.ipynb",
+      "original_sha256": "38b0fd67b4aea1e850ab60f7284c8551e0874470c1c3b87346708acf605ec306",
+      "outputs_removed": 0,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        "Changed automatic FIF cleanup to EEG_ENABLE_CLEANUP=1 opt-in; defaults preserve intermediates."
+      ]
+    },
+    {
+      "original_filename": "波恩+正常人流程(内存处理）.ipynb",
+      "published_path": "notebooks/workflows/bonn_controls_pipeline.ipynb",
+      "original_sha256": "e3759ac360c9caf079c9c3630af9a0c84d558143136cc5f0d20426fa9e0709b2",
+      "outputs_removed": 0,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        },
+        {
+          "location": "main() FIF cleanup guard",
+          "method": "require EEG_ENABLE_CLEANUP=1 and not args.keep_fif",
+          "problem": "preserve the existing --keep_fif CLI contract when explicit cleanup is enabled",
+          "verification": "AST and nbformat validation after export"
+        }
+      ],
+      "path_replacements": [
+        "Changed automatic FIF cleanup to EEG_ENABLE_CLEANUP=1 opt-in; defaults preserve intermediates."
+      ]
+    },
+    {
+      "original_filename": "波恩（只处理癫痫）.ipynb",
+      "published_path": "notebooks/workflows/bonn_seizure_only.ipynb",
+      "original_sha256": "8f0a8caf757f2e9fc5828aae57ce95b4db5c3d68fc0fd19745a78fae17fa01a7",
+      "outputs_removed": 0,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        },
+        {
+          "location": "main() FIF cleanup guard",
+          "method": "require EEG_ENABLE_CLEANUP=1 and not args.keep_fif",
+          "problem": "preserve the existing --keep_fif CLI contract when explicit cleanup is enabled",
+          "verification": "AST and nbformat validation after export"
+        }
+      ],
+      "path_replacements": [
+        "Changed automatic FIF cleanup to EEG_ENABLE_CLEANUP=1 opt-in; defaults preserve intermediates."
+      ]
+    },
+    {
+      "original_filename": "正常人处理流程.ipynb",
+      "published_path": "notebooks/workflows/controls_processing.ipynb",
+      "original_sha256": "8b77f2e651f04e464382542eed69fe676387890d86501486f7a5183f97254a72",
+      "outputs_removed": 3,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": []
+    },
+    {
+      "original_filename": "深度学习模型.ipynb",
+      "published_path": "notebooks/models/deep_learning_model.ipynb",
+      "original_sha256": "527ab443a902b5327f1600af968d4dc6a437d1971a66180ea888b283257d9d88",
+      "outputs_removed": 0,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": []
+    },
+    {
+      "original_filename": "改深度学习模型.ipynb",
+      "published_path": "notebooks/models/deep_learning_model_revision.ipynb",
+      "original_sha256": "4bcd349cc30cffc85b40740730653688b33cd5448dfcaf67d8329189c7a04495",
+      "outputs_removed": 0,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": []
+    },
+    {
+      "original_filename": "预测结果npy读取.ipynb",
+      "published_path": "notebooks/results/read_prediction_npy.ipynb",
+      "original_sha256": "700f152c069a9636af06d3f36607cad7ca7aad02e80fe635f6412095f325b017",
+      "outputs_removed": 2,
+      "modifications": [
+        {
+          "location": "all code cells",
+          "method": "cleared outputs, execution_count, cell metadata, and attachments",
+          "problem": "historical execution artifacts",
+          "verification": "validated after export"
+        },
+        {
+          "location": "first cell",
+          "method": "added archive provenance Markdown",
+          "problem": "public-release context",
+          "verification": "validated after export"
+        }
+      ],
+      "path_replacements": [
+        {
+          "original_path_redacted": true,
+          "original_path_category": "local prediction-output path",
+          "to": "outputs/predictions",
+          "method": "replace local absolute path with repository-relative example",
+          "location": "code cell(s); exact local source value redacted"
+        }
+      ]
+    }
+  ]
+}
